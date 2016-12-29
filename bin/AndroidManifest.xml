@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.waitperson"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.itemLists.ItemList01"
+            android:label="@string/title_activity_item_list" >
+        </activity>
+        <activity
+            android:name="com.example.itemLists.ItemList02"
+            android:label="@string/title_activity_item_list02" >
+        </activity>
+        <activity
+            android:name="com.example.itemLists.ItemList03"
+            android:label="@string/title_activity_item_list03" >
+        </activity>
+        <activity
+            android:name="com.example.itemLists.ItemList04"
+            android:label="@string/title_activity_item_list04" >
+        </activity>
+        <activity
+            android:name="com.example.itemLists.ItemList05"
+            android:label="@string/title_activity_item_list05" >
+        </activity>
+        <activity
+            android:name="com.example.itemLists.ItemList06"
+            android:label="@string/title_activity_item_list06" >
+        </activity>
+        <activity
+            android:name="com.example.itemLists.ItemList07"
+            android:label="@string/title_activity_item_list07" >
+        </activity>
+        <activity
+            android:name="com.example.itemLists.ItemList08"
+            android:label="@string/title_activity_item_list08" >
+        </activity>
+        <activity
+            android:name="com.example.itemLists.ItemList09"
+            android:label="@string/title_activity_item_list09" >
+        </activity>
+        <activity
+            android:name="com.example.itemLists.ItemList10"
+            android:label="@string/title_activity_item_list10" >
+        </activity>
+        <activity
+            android:name="com.example.orders.Order01"
+            android:label="@string/title_activity_order01"
+            android:parentActivityName="com.example.itemLists.ItemList01" >
+        </activity>
+        <activity
+            android:name="com.example.orders.Order02"
+            android:label="@string/title_activity_order02"
+            android:parentActivityName="com.example.itemLists.ItemList02" >
+        </activity>
+        <activity
+            android:name="com.example.orders.Order03"
+            android:label="@string/title_activity_order03"
+            android:parentActivityName="com.example.itemLists.ItemList03" >
+        </activity>
+        <activity
+            android:name="com.example.orders.Order04"
+            android:label="@string/title_activity_order04"
+            android:parentActivityName="com.example.itemLists.ItemList04" >
+        </activity>
+        <activity
+        	android:name="com.example.orders.Order05"
+            android:label="@string/title_activity_order05"
+            android:parentActivityName="com.example.itemLists.ItemList05" >
+        </activity>
+        <activity
+            android:name="com.example.orders.Order06"
+            android:label="@string/title_activity_order06"
+            android:parentActivityName="com.example.itemLists.ItemList06" >
+        </activity>
+        <activity
+            android:name="com.example.orders.Order07"
+            android:label="@string/title_activity_order07"
+            android:parentActivityName="com.example.itemLists.ItemList07" >
+        </activity>
+        <activity
+            android:name="com.example.orders.Order08"
+            android:label="@string/title_activity_order08"
+            android:parentActivityName="com.example.itemLists.ItemList08" >
+        </activity>
+        <activity
+            android:name="com.example.orders.Order09"
+            android:label="@string/title_activity_order09"
+            android:parentActivityName="com.example.itemLists.ItemList09">
+        </activity>
+        <activity
+            android:name="com.example.orders.Order10"
+            android:label="@string/title_activity_order10"
+            android:parentActivityName="com.example.itemLists.ItemList10" >
+        </activity>
+    </application>
+
+</manifest>
